@@ -10,6 +10,6 @@ public class Main {
 
         final Directory result = reader.read();
 
-        writer.write(result);
+        writer.writeInConsole(result);
     }
 }

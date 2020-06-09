@@ -3,7 +3,7 @@ import bean.File;
 
 public class Writer {
 
-    void write(final Directory directory) {
+    void writeInConsole(final Directory directory) {
         final StringBuilder builder = this.getTextForWrite(directory);
         System.out.println(builder);
     }
